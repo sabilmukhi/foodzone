@@ -46,7 +46,7 @@ body{
 }
 .container .card1{
     width: 330px;
-    height: 400px;
+    height: 600px;
     border-radius: 8px;
     box-shadow:  2px 6px 8px #666;
     overflow: hidden;
@@ -66,9 +66,7 @@ body{
   margin-top: 5px;
 }
 
-.footer{
-  margin-top: 10px;
-  }
-  img{
-    height: 40px;
-  }
+.container .footer img{
+  margin-top:80px;
+  height: 40px;
+}
