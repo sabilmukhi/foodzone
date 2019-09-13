@@ -89,7 +89,12 @@ body{
     margin:35px;
 
 }
-
+a{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
 
 .footer{
   margin-top: 10px;
