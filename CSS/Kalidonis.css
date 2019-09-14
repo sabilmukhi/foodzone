@@ -37,7 +37,7 @@ body{
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 700px;
     display:inline-flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,8 +45,8 @@ body{
 
 }
 .container .card1{
-    width: 330px;
-    height: 600px;
+    width: 400px;
+    height: 800px;
     border-radius: 8px;
     box-shadow:  2px 6px 8px #666;
     overflow: hidden;
@@ -60,10 +60,10 @@ body{
   width: 330px;
 }
 .container .card1 p{
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
-  font-family: sans-serif;
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .container .footer img{
