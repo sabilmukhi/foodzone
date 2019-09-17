@@ -66,7 +66,10 @@ body{
   margin-left: 8px;
 }
 
-.container .footer img{
+.container .footer{
   margin-top:80px;
-  height: 40px;
+}
+button{
+  height:40px;
+  width:30px;
 }
