@@ -71,5 +71,8 @@ body{
 }
 button{
   height:40px;
-  width:30px;
+  width:70px;
+  font-size: 15px;
+  border-radius: 8px;
+}
 }
