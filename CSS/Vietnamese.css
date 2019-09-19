@@ -64,8 +64,11 @@ body{
 }
 
 .footer{
-  margin-top: 10px;
+  margin-top: 80px;
   }
-img{
-  height: 40px;
+button{
+  height:40px;
+  width:70px;
+  font-size: 15px;
+  border-radius: 8px;
 }
