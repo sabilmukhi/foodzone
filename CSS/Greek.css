@@ -3,10 +3,7 @@
   padding: 0px;
 }
 body{
-
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJbFiDMvBh4iPTDqQ8u9xs78IKRNyOcPdXqz0iKFJ9npeJYuGQ);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to right, #1ABEDB, #A0E6F3);
 }
 
 button{
