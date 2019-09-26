@@ -3,11 +3,7 @@
   padding: 0px;
 }
 body{
-
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT97aNTqWle8dH5k3nz4OfH4aMhmrliBXtQpTNmePSZ8LIc26cfBQ);
-  background-repeat: no-repeat;
-  background-size:cover;
-
+background: linear-gradient(to right, #556163, #9BA5A6);
 }
 button{
   width: 60px;
