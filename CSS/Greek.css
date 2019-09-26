@@ -7,7 +7,104 @@ body{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJbFiDMvBh4iPTDqQ8u9xs78IKRNyOcPdXqz0iKFJ9npeJYuGQ);
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+button{
+  width: 60px;
+  height: 24px;
+  margin-left:0px;
+  margin-top: 2px;
+}
+.sidenav {
+  height:auto;
+  position: absolute;
+  z-index: 1;
+  margin-top:3px;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 40px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ECF0F1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 50px;
+  color: black;
+}
+.sidenav .closebtn:hover {
+  color: black;
+  font-weight: bolder;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;
+  font-family: verdana;
+  background-color: #CCC;
+  text-decoration: none;
+  padding: 8px;
+  color: #000;
+}
+.mainmenu a:hover {
+  color: black;
+  font-weight: bolder;
+  background-color:#99A3A4;
+}
+
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+
+.submenu a {
+  font-family: garamond;
+  background-color: #640B17;
+  color: white;
+  margin-left: 10px;
+}
+
+
+.submenu a:hover {
+  color: white;
+  background-color: #640B17;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+.mainmenu li{
+  border-top:1px solid #fff;
 }
 
 .header{
