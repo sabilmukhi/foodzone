@@ -3,9 +3,7 @@
   padding: 0px;
 }
 body{
-
-  background-image: url(https://st2.depositphotos.com/1013886/10126/i/950/depositphotos_101269192-stock-photo-healthy-food-background.jpg);
-  margin: 5px 1px 10px 2px;
+  background: linear-gradient(to right, #C5C373, #F1F0BB);
 }
 
 button{
