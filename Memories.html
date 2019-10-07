@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Basic MVP">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/jscript" src="main.js"></script>
+  <link rel="stylesheet" href="CSS/Memories.css">
+  <meta name="format-detection" content="telephone=no">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+
+  <title>Food Zone</title>
+</head>
+
+<body>
+
+  <div class="heading">
+    <div class="header"> Food Zone</div>
+    <div class="subheader">Memories Of India</div>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <ul class="mainmenu">
+        <li><a href="Index.html"> HOME</a></li>
+        <li><a href="Greek.html">Traditional Greek</a>
+          <ul class="submenu">
+            <li><a href="Kalidonis.html">Kalidonis Teverna</a></li>
+            <li><a href="Yot's.html">Yot's</a></li>
+          </ul>
+        </li>
+        <li><a href="Indian.html">Authentic Indian</a>
+          <ul class="submenu">
+            <li><a href="Memories.html">Memories of India </a></li>
+            <li><a href="Saffrron.html"> Saffrron</a></li>
+          </ul>
+        </li>
+        <li><a href="vietnamese.html">Vietnames</a>
+          <ul class="submenu">
+            <li><a href="Chow.html">Chow</a></li>
+          </ul>
+        </li>
+
+  </div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+
+  <div class="container">
+
+    <div class="card1">
+      <img src="IMAGES/1memories.jpg" alt="image">
+
+    <h3><ul>Detail Description:</ul></h3>
+    <p>We are the one of the popular Indian food style restaurant in Darwin. Our location is most convenient for people living in city as well as in Casuarina. Our menu is design regarding all Indian food from north to south. </p>
+    <p><ul>Speciality:</ul> Quality Indian style food and Dessert.  </p>
+    <p><ul>Address:</ul>  5/2 Sabine Rd, Millner NT 0810</p>
+    <p><ul>Contact No.</ul> <a href="tel:+61-424 096 804">0424 096 804</a></p>
+
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Hours: Open 🔽</button>
+         <div id="myDropdown" class="dropdown-content">
+           <a Monday>Mon: 5-10pm</a>
+           <a Tuesday>Tue: 5-10pm</a>
+           <a Wednesday>Wed: 5-10pm</a>
+           <a Thursday>Thu: 5-10pm</a>
+           <a Friday>Fri: 5-10pm</a>
+           <a Saturday>Sat: 5-10pm</a>
+           <a Sunday>Sun: 5-10pm</a>
+         </div>
+   </div>
+
+    <p><ul>Location:</ul></p>
+  <div class="mapouter">
+   <div class="gmap_canvas">
+    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=memories%20of%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+     <a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">website wordpress embedgooglemap.net</a>
+  </div>
+   <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+  </div>
+
+  </div>
+
+<div class="footer">
+ <button onclick="goBack()">Go Back</button>
+<script>
+ function goBack()
+  {
+  window.history.back()
+  }
+</script>
+</div>
+
+</div>
+
+
+</body>
+
+</html>
