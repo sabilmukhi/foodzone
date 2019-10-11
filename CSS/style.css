@@ -121,14 +121,30 @@ button{
     justify-content: center;
 
 }
-
-.container .card1{
+.container .card4{
     width: 330px;
     height: 100px;
     border-radius: 8px;
     box-shadow:  2px 6px 8px #666;
     overflow: hidden;
     margin: 30px;
+    margin-bottom: 10px;
+    background-color: #E848F8;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card4 h3{
+    font-size: 25px;
+    margin:35px;
+}
+.container .card1{
+    width: 330px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow:  2px 6px 8px #666;
+    overflow: hidden;
+    margin: 20px;
     margin-bottom: 10px;
     background-color: #2261E6;
     text-align: center;
@@ -170,7 +186,7 @@ button{
     box-shadow:  2px 6px 8px #666;
     overflow: hidden;
     margin: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #219528;
     text-align: center;
     transition: all 0.25s;
@@ -179,7 +195,24 @@ button{
 .container .card3 h3{
     font-size: 25px;
     margin:35px;
+}
 
+.container .card5{
+    width: 330px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow:  2px 6px 8px #666;
+    overflow: hidden;
+    margin: 20px;
+    margin-bottom: 30px;
+    background-color: #FE2F5B;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card5 h3{
+    font-size: 25px;
+    margin:35px;
 }
 a{
   text-align: center;
