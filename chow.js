@@ -12,14 +12,14 @@ var images = [];	// Images Array
 var time = 1000;	// Time Between Switch
 
 // Image List
-images[0] = "IMAGES/1memories.jpg";
-images[1] = "IMAGES/2memories.jpg";
-images[2] = "IMAGES/3memories.jpg";
-images[3] = "IMAGES/4memories.jpg";
+images[0] = "IMAGES/1chow.jpg";
+images[1] = "IMAGES/2chow.jpg";
+images[2] = "IMAGES/3chow.jpg";
+images[3] = "IMAGES/4chow.jpg";
 
 // Change Image
 function changeImg(){
-	document.slide.src= images[i];
+	document.slide.src = images[i];
 
 	// Check If Index Is Under Max
 	if(i < images.length - 1){
