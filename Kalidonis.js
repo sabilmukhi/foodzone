@@ -1,3 +1,12 @@
+
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+
+
 var i = 0; 			// Start Point
 var images = [];	// Images Array
 var time = 1000;	// Time Between Switch
