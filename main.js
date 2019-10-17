@@ -15,9 +15,13 @@ images[0] = "IMAGES/1index.jpg";
 images[1] = "IMAGES/3index.jpg";
 images[2] = "IMAGES/2index.jpg";
 images[3] = "IMAGES/4index.jpg";
-images[3] = "IMAGES/5index.jpg";
-images[3] = "IMAGES/7index.jpg";
-images[3] = "IMAGES/6index.jpg";
+images[4] = "IMAGES/5index.jpg";
+images[5] = "IMAGES/7index.jpg";
+images[6] = "IMAGES/6index.jpg";
+images[7] = "IMAGES/9index.jpg";
+images[8] = "IMAGES/8index.jpg";
+images[9] = "IMAGES/10index.jpg";
+images[10] = "IMAGES/11index.jpg";
 
 // Change Image
 function changeImg(){
