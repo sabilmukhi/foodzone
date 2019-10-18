@@ -145,8 +145,15 @@ a{
 }
 
 .footer{
-  margin-top: 10px;
-  }
-img{
-  height: 40px;
+  margin-bottom: 10px;
+  color:#FFFFFF;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+  text-decoration-color: white;
+  background-color: #211545;
+  text-decoration: none;
+  font-family: Georgia;
+
+
 }
