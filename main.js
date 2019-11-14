@@ -8,7 +8,7 @@ document.getElementById("mySidenav").style.width = "0";
 
 var i = 0; 			// Start Point
 var images = [];	// Images Array
-var time = 1000;	// Time Between Switch
+var time = 2000;	// Time Between Switch
 
 // Image List
 images[0] = "IMAGES/1index.jpg";
