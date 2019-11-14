@@ -157,4 +157,6 @@ a{
 }
 .footer a{
   font-size: 20px;
+  text-decoration: underline;
+
 }
