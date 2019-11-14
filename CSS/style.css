@@ -154,6 +154,7 @@ a{
   background-color: #211545;
   text-decoration: none;
   font-family: Georgia;
-
-
+}
+.footer a{
+  font-size: 20px;
 }
